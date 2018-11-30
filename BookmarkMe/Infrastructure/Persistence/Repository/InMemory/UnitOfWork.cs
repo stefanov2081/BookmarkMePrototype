@@ -1,6 +1,6 @@
 ﻿namespace BookmarkMe.Infrastructure.Persistence.Repository.InMemory
 {
-    public class UnitOfWork : IUnitOfWork
+    internal class UnitOfWork : IUnitOfWork
     {
         private IBookmarkRepository bookmarkRepository;
 

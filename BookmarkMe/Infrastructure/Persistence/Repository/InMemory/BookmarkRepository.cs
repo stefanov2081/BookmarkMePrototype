@@ -4,13 +4,13 @@
     using System.Linq;
     using Domain.Model.Bookmark;
 
-    public class BookmarkRepository : IBookmarkRepository
+    internal class BookmarkRepository : IBookmarkRepository
     {
-        private SortedDictionary<int, Bookmark> bookmarks;
+        private static SortedDictionary<int, Bookmark> bookmarks = new SortedDictionary<int, Bookmark>();
 
         public BookmarkRepository()
         {
-            bookmarks = new SortedDictionary<int, Bookmark>();
+            //bookmarks = new SortedDictionary<int, Bookmark>();
         }
 
         public void Add(Bookmark bookmark)

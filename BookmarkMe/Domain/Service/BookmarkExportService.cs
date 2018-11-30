@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookmarkMe.Domain.Service
 {
-    class BookmarkExportService
+    internal class BookmarkExportService
     {
     }
 }

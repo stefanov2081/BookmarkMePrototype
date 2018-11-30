@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkMe", "BookmarkMe\Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkMe.ConsoleApp", "BookmarkMe.ConsoleApp\BookmarkMe.ConsoleApp.csproj", "{2D5828E6-388A-45F3-8BC1-97634A59724C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkMe.Interface.Web.Mvc", "BookmarkMe.Interface.Web.Mvc\BookmarkMe.Interface.Web.Mvc.csproj", "{F4D9A23E-12A8-4964-8E8A-1083F2E890D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkMe.Presentation.Web.Mvc", "BookmarkMe.Presentation.Web.Mvc\BookmarkMe.Presentation.Web.Mvc.csproj", "{769997FF-A8DA-419C-9681-A8CF611C9DB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{2D5828E6-388A-45F3-8BC1-97634A59724C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5828E6-388A-45F3-8BC1-97634A59724C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5828E6-388A-45F3-8BC1-97634A59724C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4D9A23E-12A8-4964-8E8A-1083F2E890D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4D9A23E-12A8-4964-8E8A-1083F2E890D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4D9A23E-12A8-4964-8E8A-1083F2E890D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4D9A23E-12A8-4964-8E8A-1083F2E890D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769997FF-A8DA-419C-9681-A8CF611C9DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769997FF-A8DA-419C-9681-A8CF611C9DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769997FF-A8DA-419C-9681-A8CF611C9DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769997FF-A8DA-419C-9681-A8CF611C9DB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿namespace BookmarkMe.Domain.Shared
 {
-    public interface IEntity
+    internal interface IEntity
     {
         int Id { get; }
     }

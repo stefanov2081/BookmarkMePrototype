@@ -5,7 +5,7 @@
     using Domain.Model.Bookmark;
     using Infrastructure.Persistence.Repository;
 
-    public class BookmarkService
+    internal class BookmarkService
     {
         private IUnitOfWork unitOfWork;
 

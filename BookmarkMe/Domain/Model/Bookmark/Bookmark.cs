@@ -3,7 +3,7 @@
     using System;
     using Shared;
 
-    public class Bookmark : IEntity
+    internal class Bookmark : IEntity
     {
         private readonly int id;
 

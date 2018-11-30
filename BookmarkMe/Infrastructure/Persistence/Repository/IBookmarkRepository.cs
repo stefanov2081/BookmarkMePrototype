@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using Domain.Model.Bookmark;
 
-    public interface IBookmarkRepository
+    internal interface IBookmarkRepository
     {
         void Add(Bookmark bookmark);
         void Delete(int id);
