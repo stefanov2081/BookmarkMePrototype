@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
     using Application.Service.Bookmark;
-    using BookmarkMe.Infrastructure.Persistence.Repository.InMemory;
+    using Infrastructure.Persistence.Repository.InMemory;
 
     public class BookmarkServiceFacade : IBookmarkService
     {
