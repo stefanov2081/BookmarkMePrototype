@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    public interface IBookmarkService
+    public interface IBookmarkServiceFacade
     {
         void CreateBookmark(string name, string uri);
 

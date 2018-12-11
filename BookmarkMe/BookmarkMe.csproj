@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Interfaces\Bookmark\Facade\IBookmarkDto.cs" />
     <Compile Include="Interfaces\Bookmark\Facade\IBookmarkDtoAssembler.cs" />
-    <Compile Include="Interfaces\Bookmark\Facade\IBookmarkService.cs" />
+    <Compile Include="Interfaces\Bookmark\Facade\IBookmarkServiceFacade.cs" />
     <Compile Include="Domain\Model\Bookmark\Bookmark.cs" />
     <Compile Include="Application\Service\Bookmark\BookmarkService.cs" />
     <Compile Include="Domain\Service\BookmarkExportService.cs" />

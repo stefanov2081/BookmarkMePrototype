@@ -9,12 +9,12 @@
     public class BookmarkController : Controller
     {
         private BookmarkServiceFacade bookmarkService;
-        private BookmarkViewModelAssembler viewModelFactory;
+        private BookmarkViewModelAssembler viewModelAssembler;
 
         public BookmarkController()
         {
             bookmarkService = new BookmarkServiceFacade();
-            viewModelFactory = new BookmarkViewModelAssembler();
+            viewModelAssembler = new BookmarkViewModelAssembler();
         }
 
         public ActionResult Delete(int? id)
@@ -31,7 +31,7 @@
                 return HttpNotFound();
             }
 
-            var viewModel = viewModelFactory.ToDeleteViewModel(bookmark);
+            var viewModel = viewModelAssembler.ToDeleteViewModel(bookmark);
 
             return View(viewModel);
         }
@@ -59,7 +59,7 @@
                 return HttpNotFound();
             }
 
-            return View(viewModelFactory.ToDetailsViewModel(bookmark));
+            return View(viewModelAssembler.ToDetailsViewModel(bookmark));
         }
 
         public ActionResult Edit(int? id)
@@ -76,7 +76,7 @@
                 return HttpNotFound();
             }
 
-            return View(viewModelFactory.ToEditViewModel(bookmark));
+            return View(viewModelAssembler.ToEditViewModel(bookmark));
         }
 
         [HttpPost]
@@ -116,7 +116,7 @@
         {
             var bookmarks = bookmarkService.GetBookmarks();
 
-            return View(viewModelFactory.ToIndexViewModel(bookmarks));
+            return View(viewModelAssembler.ToIndexViewModel(bookmarks));
         }
 
         private bool IsBadRequest(int? parameter)

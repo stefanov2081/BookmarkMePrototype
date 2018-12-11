@@ -4,7 +4,7 @@
     using Application.Service.Bookmark;
     using Infrastructure.Persistence.Repository.InMemory;
 
-    public class BookmarkServiceFacade : IBookmarkService
+    public class BookmarkServiceFacade : IBookmarkServiceFacade
     {
         private BookmarkService bookmarkService;
 
