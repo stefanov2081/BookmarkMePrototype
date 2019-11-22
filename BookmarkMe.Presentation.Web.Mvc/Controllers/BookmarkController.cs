@@ -2,19 +2,19 @@
 {
     using System.Net;
     using System.Web.Mvc;
-    using Interfaces.Bookmark.Facade.Web.Mvc;
+    using BookmarkMe.Interfaces.Bookmark.Web.Mvc;
     using Presentation.Web.Mvc.Assemblers;
     using Presentation.Web.Mvc.ViewModels.Bookmark;
 
     public class BookmarkController : Controller
     {
-        private BookmarkServiceFacade bookmarkService;
         private BookmarkViewModelAssembler viewModelAssembler;
+        private BookmarkServiceFacade bookmarkService;
 
         public BookmarkController()
         {
-            bookmarkService = new BookmarkServiceFacade();
             viewModelAssembler = new BookmarkViewModelAssembler();
+            bookmarkService = new BookmarkServiceFacade();
         }
 
         public ActionResult Delete(int? id)
@@ -24,16 +24,14 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault());
+            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault(), new BookmarkViewModel());
 
             if (IsNotFound(bookmark))
             {
                 return HttpNotFound();
             }
 
-            var viewModel = viewModelAssembler.ToDeleteViewModel(bookmark);
-
-            return View(viewModel);
+            return View(bookmark);
         }
 
         [HttpPost, ActionName("Delete")]
@@ -52,14 +50,14 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault());
+            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault(), new BookmarkViewModel());
 
             if (IsNotFound(bookmark))
             {
                 return HttpNotFound();
             }
 
-            return View(viewModelAssembler.ToDetailsViewModel(bookmark));
+            return View(bookmark);
         }
 
         public ActionResult Edit(int? id)
@@ -69,19 +67,19 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault());
+            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault(), new BookmarkViewModel());
 
             if (IsNotFound(bookmark))
             {
                 return HttpNotFound();
             }
 
-            return View(viewModelAssembler.ToEditViewModel(bookmark));
+            return View(bookmark);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Uri")] EditViewModel editViewModel)
+        public ActionResult Edit([Bind(Include = "Id,Name,Uri")] BookmarkViewModel editViewModel)
         {
             if (!ModelState.IsValid)
             {
@@ -100,7 +98,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Uri")] CreateViewModel createBookmarkViewModel)
+        public ActionResult Create([Bind(Include = "Id,Name,Uri")] BookmarkViewModel createBookmarkViewModel)
         {
             if (!ModelState.IsValid)
             {
@@ -121,7 +119,7 @@
 
         private bool IsBadRequest(int? parameter)
         {
-            return !parameter.HasValue;
+            return parameter.HasValue == false;
         }
 
         private bool IsNotFound(object obj)

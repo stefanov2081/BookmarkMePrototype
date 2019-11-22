@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc" kind="namespace">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc</compoundname>
+    <innerclass refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_bundle_config" prot="public">BookmarkMe::Presentation::Web::Mvc::BundleConfig</innerclass>
+    <innerclass refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_filter_config" prot="public">BookmarkMe::Presentation::Web::Mvc::FilterConfig</innerclass>
+    <innerclass refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_route_config" prot="public">BookmarkMe::Presentation::Web::Mvc::RouteConfig</innerclass>
+    <innerclass refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application" prot="public">BookmarkMe::Presentation::Web::Mvc::MvcApplication</innerclass>
+    <innernamespace refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers">BookmarkMe::Presentation::Web::Mvc::Assemblers</innernamespace>
+    <innernamespace refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers">BookmarkMe::Presentation::Web::Mvc::Controllers</innernamespace>
+    <innernamespace refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models">BookmarkMe::Presentation::Web::Mvc::ViewModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start/BundleConfig.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

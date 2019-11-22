@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler" kind="class" prot="package">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc::Assemblers::BookmarkViewModelAssembler</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1a52d6e9871afe90c7320afa10f1738a24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_delete_view_model" kindref="compound">DeleteViewModel</ref></type>
+        <definition>DeleteViewModel BookmarkMe.Presentation.Web.Mvc.Assemblers.BookmarkViewModelAssembler.ToDeleteViewModel</definition>
+        <argsstring>(IBookmarkDto bookmark)</argsstring>
+        <name>ToDeleteViewModel</name>
+        <param>
+          <type>IBookmarkDto</type>
+          <declname>bookmark</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" line="9" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" bodystart="9" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1aebc3b4d5af0eceba452254297ca4d712" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model" kindref="compound">EditViewModel</ref></type>
+        <definition>EditViewModel BookmarkMe.Presentation.Web.Mvc.Assemblers.BookmarkViewModelAssembler.ToEditViewModel</definition>
+        <argsstring>(IBookmarkDto bookmark)</argsstring>
+        <name>ToEditViewModel</name>
+        <param>
+          <type>IBookmarkDto</type>
+          <declname>bookmark</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" line="19" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1aebc4b58f9f6693fbfbd671ee1accd6d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model" kindref="compound">ListViewModel</ref>[]</type>
+        <definition>ListViewModel [] BookmarkMe.Presentation.Web.Mvc.Assemblers.BookmarkViewModelAssembler.ToIndexViewModel</definition>
+        <argsstring>(IList&lt; IBookmarkDto &gt; bookmarks)</argsstring>
+        <name>ToIndexViewModel</name>
+        <param>
+          <type>IList&lt; IBookmarkDto &gt;</type>
+          <declname>bookmarks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" line="29" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" bodystart="29" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1a569f4e10118eed5ae7f1585d52b78618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_details_view_model" kindref="compound">DetailsViewModel</ref></type>
+        <definition>DetailsViewModel BookmarkMe.Presentation.Web.Mvc.Assemblers.BookmarkViewModelAssembler.ToDetailsViewModel</definition>
+        <argsstring>(IBookmarkDto bookmark)</argsstring>
+        <name>ToDetailsViewModel</name>
+        <param>
+          <type>IBookmarkDto</type>
+          <declname>bookmark</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" line="44" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" bodystart="44" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" line="8" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" bodystart="7" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1a52d6e9871afe90c7320afa10f1738a24" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Assemblers::BookmarkViewModelAssembler</scope><name>ToDeleteViewModel</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1a569f4e10118eed5ae7f1585d52b78618" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Assemblers::BookmarkViewModelAssembler</scope><name>ToDetailsViewModel</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1aebc3b4d5af0eceba452254297ca4d712" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Assemblers::BookmarkViewModelAssembler</scope><name>ToEditViewModel</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1aebc4b58f9f6693fbfbd671ee1accd6d9" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Assemblers::BookmarkViewModelAssembler</scope><name>ToIndexViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

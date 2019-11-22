@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_fc624f48acdebea87e6db08b926a30aa" kind="dir">
+    <compoundname>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels</compoundname>
+    <innerdir refid="dir_0ea55feaea5029d849ed2f37a41d9696">C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/"/>
+  </compounddef>
+</doxygen>

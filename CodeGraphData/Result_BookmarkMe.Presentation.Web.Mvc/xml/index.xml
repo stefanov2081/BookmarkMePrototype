@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a6f54a796f77fe8410f4f1f23cbaf5f5c" kind="variable"><name>bookmarkService</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a626067837a98ea282da5d11245227d75" kind="variable"><name>viewModelAssembler</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a5eed5971148dfedc497848b91c1394ae" kind="variable"><name>bookmarkService2</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ae4477530a3d35a59bdceb8326a403a19" kind="function"><name>BookmarkController</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a47c5eca1a707ecdd4fd06d3129e0cae7" kind="function"><name>Delete</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a7f10b64ec7c6ac86c112d68ec7302ce6" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a9af24d82eacb3ec58c9bf15787c66bbc" kind="function"><name>Details</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1abef955416e12ecc5cd62533a3454e045" kind="function"><name>Edit</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ac3f28b527a8a2ecd2c2cf5ac0a93cf39" kind="function"><name>Edit</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a52772197b12afa11f22307b7ce498aab" kind="function"><name>Create</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a3e8297945448086e1aa77707d64b5df6" kind="function"><name>Create</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ada687da24043e12c10d64313d40ef4f6" kind="function"><name>Index</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a862eded42c7fe17afaeb058b22619234" kind="function"><name>IsBadRequest</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a16f6bd44653f87959bd11df81d50e139" kind="function"><name>IsNotFound</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::Assemblers::BookmarkViewModelAssembler</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1a52d6e9871afe90c7320afa10f1738a24" kind="function"><name>ToDeleteViewModel</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1aebc3b4d5af0eceba452254297ca4d712" kind="function"><name>ToEditViewModel</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1aebc4b58f9f6693fbfbd671ee1accd6d9" kind="function"><name>ToIndexViewModel</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler_1a569f4e10118eed5ae7f1585d52b78618" kind="function"><name>ToDetailsViewModel</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_bundle_config" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::BundleConfig</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_bundle_config_1a7aa1e5f96303a20163cd61e752bf3110" kind="function"><name>RegisterBundles</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_create_view_model" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::CreateViewModel</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_create_view_model_1a7b3c6d7578876dbecbd44dfce5bcc275" kind="property"><name>Name</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_create_view_model_1aed9f653106db2c4a9ac9ca0f151a26cf" kind="property"><name>Uri</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_delete_view_model" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::DeleteViewModel</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_delete_view_model_1a34ea095aa5c4b2c7a97b064f1482e389" kind="property"><name>Id</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_delete_view_model_1a9667a595c7aca25c989aac11ab995811" kind="property"><name>Name</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_delete_view_model_1aaebc58e73696264d047bf587eecbd1f8" kind="property"><name>Uri</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_details_view_model" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::DetailsViewModel</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_details_view_model_1a587d01b3a6c0c91f9054ac593ce2bea9" kind="property"><name>Id</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_details_view_model_1ac638fd2b3b9167ade67fb6f7fbd478b8" kind="property"><name>Name</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_details_view_model_1a318b1a525023512e4137386a1f2065aa" kind="property"><name>Uri</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::EditViewModel</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a7ba490c9c5359cdf8ce5beebf45985b0" kind="property"><name>Id</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a0ae12aa6397c62fe4a3fa0250dd5aea7" kind="property"><name>Name</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a7596c631d5403d8e9b282234176fb27c" kind="property"><name>Uri</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_filter_config" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::FilterConfig</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_filter_config_1a5152607064e93a92820c90f00c3010c3" kind="function"><name>RegisterGlobalFilters</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::ListViewModel</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a128d4820229d8dc104abf320d0351361" kind="property"><name>Id</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a75e0eda1daf161932b68505e6687eecf" kind="property"><name>Name</name></member>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a0c9c0e2cfbabca7a72bdf71f4b14f6a5" kind="property"><name>Uri</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::MvcApplication</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application_1ab681421a2b79fa323657a0da6bdc6a99" kind="function"><name>Application_Start</name></member>
+  </compound>
+  <compound refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_route_config" kind="class"><name>BookmarkMe::Presentation::Web::Mvc::RouteConfig</name>
+    <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_route_config_1aadc8adf0343d44aba0ba3ceffcb0d668" kind="function"><name>RegisterRoutes</name></member>
+  </compound>
+  <compound refid="namespace_bookmark_me" kind="namespace"><name>BookmarkMe</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_domain_1_1_model_1_1_bookmark" kind="namespace"><name>BookmarkMe::Domain::Model::Bookmark</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_presentation" kind="namespace"><name>BookmarkMe::Presentation</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_presentation_1_1_web" kind="namespace"><name>BookmarkMe::Presentation::Web</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc" kind="namespace"><name>BookmarkMe::Presentation::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers" kind="namespace"><name>BookmarkMe::Presentation::Web::Mvc::Assemblers</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers" kind="namespace"><name>BookmarkMe::Presentation::Web::Mvc::Controllers</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models" kind="namespace"><name>BookmarkMe::Presentation::Web::Mvc::ViewModels</name>
+  </compound>
+  <compound refid="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark" kind="namespace"><name>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark</name>
+  </compound>
+  <compound refid="namespace_interfaces_1_1_bookmark_1_1_facade" kind="namespace"><name>Interfaces::Bookmark::Facade</name>
+  </compound>
+  <compound refid="namespace_interfaces_1_1_bookmark_1_1_facade_1_1_web_1_1_mvc" kind="namespace"><name>Interfaces::Bookmark::Facade::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_mvc" kind="namespace"><name>System::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_optimization" kind="namespace"><name>System::Web::Optimization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_routing" kind="namespace"><name>System::Web::Routing</name>
+  </compound>
+  <compound refid="_bundle_config_8cs" kind="file"><name>BundleConfig.cs</name>
+  </compound>
+  <compound refid="_filter_config_8cs" kind="file"><name>FilterConfig.cs</name>
+  </compound>
+  <compound refid="_route_config_8cs" kind="file"><name>RouteConfig.cs</name>
+  </compound>
+  <compound refid="_bookmark_view_model_assembler_8cs" kind="file"><name>BookmarkViewModelAssembler.cs</name>
+  </compound>
+  <compound refid="_bookmark_controller_8cs" kind="file"><name>BookmarkController.cs</name>
+  </compound>
+  <compound refid="_global_8asax_8cs" kind="file"><name>Global.asax.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_create_view_model_8cs" kind="file"><name>CreateViewModel.cs</name>
+  </compound>
+  <compound refid="_delete_view_model_8cs" kind="file"><name>DeleteViewModel.cs</name>
+  </compound>
+  <compound refid="_details_view_model_8cs" kind="file"><name>DetailsViewModel.cs</name>
+  </compound>
+  <compound refid="_edit_view_model_8cs" kind="file"><name>EditViewModel.cs</name>
+  </compound>
+  <compound refid="_list_view_model_8cs" kind="file"><name>ListViewModel.cs</name>
+  </compound>
+  <compound refid="dir_72aa8c20ab6d231a2d557e39b041836f" kind="dir"><name>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start</name>
+  </compound>
+  <compound refid="dir_215dc771f139b597d6f11cdb409d7cef" kind="dir"><name>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers</name>
+  </compound>
+  <compound refid="dir_0ea55feaea5029d849ed2f37a41d9696" kind="dir"><name>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark</name>
+  </compound>
+  <compound refid="dir_2b8182c2d7eaf00d413d23df9383c906" kind="dir"><name>C:/Projects/Personal/BookmarkMe</name>
+  </compound>
+  <compound refid="dir_c107cfeab6251b66ea72d15b829b5711" kind="dir"><name>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc</name>
+  </compound>
+  <compound refid="dir_384f032b503b0576261dbbbfcdcd700f" kind="dir"><name>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers</name>
+  </compound>
+  <compound refid="dir_e84a05482e4fe451ce6a3049da6bf655" kind="dir"><name>C:/Projects/Personal</name>
+  </compound>
+  <compound refid="dir_e27f7acb6c354cea3d58335de45d9d79" kind="dir"><name>C:/Projects</name>
+  </compound>
+  <compound refid="dir_d0e4f124757df7d3f5ad71c2b13da524" kind="dir"><name>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Properties</name>
+  </compound>
+  <compound refid="dir_fc624f48acdebea87e6db08b926a30aa" kind="dir"><name>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels</name>
+  </compound>
+</doxygenindex>

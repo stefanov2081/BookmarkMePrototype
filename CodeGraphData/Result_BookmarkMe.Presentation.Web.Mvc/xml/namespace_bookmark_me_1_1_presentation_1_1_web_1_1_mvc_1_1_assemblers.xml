@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers" kind="namespace">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc::Assemblers</compoundname>
+    <innerclass refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler" prot="package">BookmarkMe::Presentation::Web::Mvc::Assemblers::BookmarkViewModelAssembler</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers/BookmarkViewModelAssembler.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

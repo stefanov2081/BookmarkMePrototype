@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_72aa8c20ab6d231a2d557e39b041836f" kind="dir">
+    <compoundname>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start</compoundname>
+    <innerfile refid="_bundle_config_8cs">BundleConfig.cs</innerfile>
+    <innerfile refid="_filter_config_8cs">FilterConfig.cs</innerfile>
+    <innerfile refid="_route_config_8cs">RouteConfig.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start/"/>
+  </compounddef>
+</doxygen>

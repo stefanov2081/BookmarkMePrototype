@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model" kind="class" prot="public">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::EditViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IBookmark</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a7ba490c9c5359cdf8ce5beebf45985b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.EditViewModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" line="8" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a0ae12aa6397c62fe4a3fa0250dd5aea7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.EditViewModel.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" line="12" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a7596c631d5403d8e9b282234176fb27c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.EditViewModel.Uri</definition>
+        <argsstring></argsstring>
+        <name>Uri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" line="16" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.EditViewModel</label>
+        <link refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>IBookmark</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.EditViewModel</label>
+        <link refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IBookmark</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" line="7" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/EditViewModel.cs" bodystart="6" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a7ba490c9c5359cdf8ce5beebf45985b0" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::EditViewModel</scope><name>Id</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a0ae12aa6397c62fe4a3fa0250dd5aea7" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::EditViewModel</scope><name>Name</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model_1a7596c631d5403d8e9b282234176fb27c" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::EditViewModel</scope><name>Uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

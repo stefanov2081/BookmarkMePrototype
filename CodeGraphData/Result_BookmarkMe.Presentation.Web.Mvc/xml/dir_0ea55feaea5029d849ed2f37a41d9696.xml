@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0ea55feaea5029d849ed2f37a41d9696" kind="dir">
+    <compoundname>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark</compoundname>
+    <innerfile refid="_create_view_model_8cs">CreateViewModel.cs</innerfile>
+    <innerfile refid="_delete_view_model_8cs">DeleteViewModel.cs</innerfile>
+    <innerfile refid="_details_view_model_8cs">DetailsViewModel.cs</innerfile>
+    <innerfile refid="_edit_view_model_8cs">EditViewModel.cs</innerfile>
+    <innerfile refid="_list_view_model_8cs">ListViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/"/>
+  </compounddef>
+</doxygen>

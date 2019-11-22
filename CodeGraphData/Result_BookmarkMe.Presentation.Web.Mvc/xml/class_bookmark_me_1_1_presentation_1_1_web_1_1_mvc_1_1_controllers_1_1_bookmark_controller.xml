@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller" kind="class" prot="public">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a6f54a796f77fe8410f4f1f23cbaf5f5c" prot="private" static="no" mutable="no">
+        <type>BookmarkServiceFacade</type>
+        <definition>BookmarkServiceFacade BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.bookmarkService</definition>
+        <argsstring></argsstring>
+        <name>bookmarkService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="11" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a626067837a98ea282da5d11245227d75" prot="private" static="no" mutable="no">
+        <type><ref refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler" kindref="compound">BookmarkViewModelAssembler</ref></type>
+        <definition>BookmarkViewModelAssembler BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.viewModelAssembler</definition>
+        <argsstring></argsstring>
+        <name>viewModelAssembler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="12" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a5eed5971148dfedc497848b91c1394ae" prot="private" static="no" mutable="no">
+        <type>BookmarkMe.Interfaces.Bookmark.Web.Mvc.BookmarkServiceFacade</type>
+        <definition>BookmarkMe.Interfaces.Bookmark.Web.Mvc.BookmarkServiceFacade BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.bookmarkService2</definition>
+        <argsstring></argsstring>
+        <name>bookmarkService2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="13" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ae4477530a3d35a59bdceb8326a403a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.BookmarkController</definition>
+        <argsstring>()</argsstring>
+        <name>BookmarkController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="15" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a47c5eca1a707ecdd4fd06d3129e0cae7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.Delete</definition>
+        <argsstring>(int?id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="22" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="22" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a7f10b64ec7c6ac86c112d68ec7302ce6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.DeleteConfirmed</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteConfirmed</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="43" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a9af24d82eacb3ec58c9bf15787c66bbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.Details</definition>
+        <argsstring>(int?id)</argsstring>
+        <name>Details</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="50" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="50" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1abef955416e12ecc5cd62533a3454e045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.Edit</definition>
+        <argsstring>(int?id)</argsstring>
+        <name>Edit</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="84" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="84" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ac3f28b527a8a2ecd2c2cf5ac0a93cf39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.Edit</definition>
+        <argsstring>([Bind(Include=&quot;Id,Name,Uri&quot;)] EditViewModel editViewModel)</argsstring>
+        <name>Edit</name>
+        <param>
+          <attributes>[Bind(Include=&quot;Id,Name,Uri&quot;)]</attributes>
+          <type><ref refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_edit_view_model" kindref="compound">EditViewModel</ref></type>
+          <declname>editViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="103" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="103" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a52772197b12afa11f22307b7ce498aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="115" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a3e8297945448086e1aa77707d64b5df6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.Create</definition>
+        <argsstring>([Bind(Include=&quot;Id,Name,Uri&quot;)] CreateViewModel createBookmarkViewModel)</argsstring>
+        <name>Create</name>
+        <param>
+          <attributes>[Bind(Include=&quot;Id,Name,Uri&quot;)]</attributes>
+          <type><ref refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_create_view_model" kindref="compound">CreateViewModel</ref></type>
+          <declname>createBookmarkViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="122" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="122" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ada687da24043e12c10d64313d40ef4f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="134" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="134" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a862eded42c7fe17afaeb058b22619234" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.IsBadRequest</definition>
+        <argsstring>(int?parameter)</argsstring>
+        <name>IsBadRequest</name>
+        <param>
+          <type>int?</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="141" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a16f6bd44653f87959bd11df81d50e139" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController.IsNotFound</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>IsNotFound</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="146" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController</label>
+        <link refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BookmarkMe.Presentation.Web.Mvc.Controllers.BookmarkController</label>
+        <link refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>bookmarkService2</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>viewModelAssembler</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>BookmarkMe.Presentation.Web.Mvc.Assemblers.BookmarkViewModelAssembler</label>
+        <link refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_assemblers_1_1_bookmark_view_model_assembler"/>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+      <node id="4">
+        <label>Bookmark</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" line="10" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers/BookmarkController.cs" bodystart="9" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ae4477530a3d35a59bdceb8326a403a19" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>BookmarkController</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a6f54a796f77fe8410f4f1f23cbaf5f5c" prot="private" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>bookmarkService</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a5eed5971148dfedc497848b91c1394ae" prot="private" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>bookmarkService2</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a52772197b12afa11f22307b7ce498aab" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>Create</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a3e8297945448086e1aa77707d64b5df6" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>Create</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a47c5eca1a707ecdd4fd06d3129e0cae7" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>Delete</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a7f10b64ec7c6ac86c112d68ec7302ce6" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>DeleteConfirmed</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a9af24d82eacb3ec58c9bf15787c66bbc" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>Details</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1abef955416e12ecc5cd62533a3454e045" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>Edit</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ac3f28b527a8a2ecd2c2cf5ac0a93cf39" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>Edit</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1ada687da24043e12c10d64313d40ef4f6" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>Index</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a862eded42c7fe17afaeb058b22619234" prot="private" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>IsBadRequest</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a16f6bd44653f87959bd11df81d50e139" prot="private" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>IsNotFound</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_controllers_1_1_bookmark_controller_1a626067837a98ea282da5d11245227d75" prot="private" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::Controllers::BookmarkController</scope><name>viewModelAssembler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

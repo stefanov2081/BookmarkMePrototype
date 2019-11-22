@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_route_config" kind="class" prot="public">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc::RouteConfig</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_route_config_1aadc8adf0343d44aba0ba3ceffcb0d668" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BookmarkMe.Presentation.Web.Mvc.RouteConfig.RegisterRoutes</definition>
+        <argsstring>(RouteCollection routes)</argsstring>
+        <name>RegisterRoutes</name>
+        <param>
+          <type>RouteCollection</type>
+          <declname>routes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start/RouteConfig.cs" line="8" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start/RouteConfig.cs" bodystart="8" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start/RouteConfig.cs" line="7" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start/RouteConfig.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_route_config_1aadc8adf0343d44aba0ba3ceffcb0d668" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::RouteConfig</scope><name>RegisterRoutes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

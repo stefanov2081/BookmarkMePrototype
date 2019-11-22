@@ -16,9 +16,9 @@
             };
         }
 
-        public EditViewModel ToEditViewModel(IBookmarkDto bookmark)
+        public BookmarkViewModel ToEditViewModel(IBookmarkDto bookmark)
         {
-            return new EditViewModel()
+            return new BookmarkViewModel()
             {
                 Id = bookmark.Id,
                 Name = bookmark.Name,

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model" kind="class" prot="public">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::ListViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a128d4820229d8dc104abf320d0351361" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.ListViewModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" line="5" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a75e0eda1daf161932b68505e6687eecf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.ListViewModel.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" line="7" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a0c9c0e2cfbabca7a72bdf71f4b14f6a5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark.ListViewModel.Uri</definition>
+        <argsstring></argsstring>
+        <name>Uri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" line="9" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" line="4" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels/Bookmark/ListViewModel.cs" bodystart="3" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a128d4820229d8dc104abf320d0351361" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::ListViewModel</scope><name>Id</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a75e0eda1daf161932b68505e6687eecf" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::ListViewModel</scope><name>Name</name></member>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_view_models_1_1_bookmark_1_1_list_view_model_1a0c9c0e2cfbabca7a72bdf71f4b14f6a5" prot="public" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::ViewModels::Bookmark::ListViewModel</scope><name>Uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

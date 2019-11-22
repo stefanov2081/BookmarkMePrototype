@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c107cfeab6251b66ea72d15b829b5711" kind="dir">
+    <compoundname>C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc</compoundname>
+    <innerdir refid="dir_72aa8c20ab6d231a2d557e39b041836f">C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/App_Start</innerdir>
+    <innerdir refid="dir_215dc771f139b597d6f11cdb409d7cef">C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Assemblers</innerdir>
+    <innerdir refid="dir_384f032b503b0576261dbbbfcdcd700f">C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Controllers</innerdir>
+    <innerdir refid="dir_d0e4f124757df7d3f5ad71c2b13da524">C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Properties</innerdir>
+    <innerdir refid="dir_fc624f48acdebea87e6db08b926a30aa">C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/ViewModels</innerdir>
+    <innerfile refid="_global_8asax_8cs">Global.asax.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/"/>
+  </compounddef>
+</doxygen>

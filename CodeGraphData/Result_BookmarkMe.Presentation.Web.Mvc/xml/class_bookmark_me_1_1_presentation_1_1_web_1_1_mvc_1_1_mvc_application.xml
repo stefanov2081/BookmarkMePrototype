@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application" kind="class" prot="public">
+    <compoundname>BookmarkMe::Presentation::Web::Mvc::MvcApplication</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpApplication</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application_1ab681421a2b79fa323657a0da6bdc6a99" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BookmarkMe.Presentation.Web.Mvc.MvcApplication.Application_Start</definition>
+        <argsstring>()</argsstring>
+        <name>Application_Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Global.asax.cs" line="9" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Global.asax.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>BookmarkMe.Presentation.Web.Mvc.MvcApplication</label>
+        <link refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>System::Web::HttpApplication</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>BookmarkMe.Presentation.Web.Mvc.MvcApplication</label>
+        <link refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>System::Web::HttpApplication</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Global.asax.cs" line="8" column="1" bodyfile="C:/Projects/Personal/BookmarkMe/BookmarkMe.Presentation.Web.Mvc/Global.asax.cs" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_bookmark_me_1_1_presentation_1_1_web_1_1_mvc_1_1_mvc_application_1ab681421a2b79fa323657a0da6bdc6a99" prot="protected" virt="non-virtual"><scope>BookmarkMe::Presentation::Web::Mvc::MvcApplication</scope><name>Application_Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
