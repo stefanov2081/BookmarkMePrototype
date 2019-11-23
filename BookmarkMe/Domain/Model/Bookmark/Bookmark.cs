@@ -3,7 +3,7 @@
     using System;
     using Shared;
 
-    internal class Bookmark : IEntity
+    internal class Bookmark : IEntity, IBookmark
     {
         private readonly int id;
 

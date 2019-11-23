@@ -1,19 +1,20 @@
-﻿namespace BookmarkMe.Infrastructure.Persistence.Repository.InMemory
+﻿namespace BookmarkMe.Presentation.Web.Mvc.Repository
 {
     using System.Collections.Generic;
     using System.Linq;
+    using BookmarkMe.Infrastructure.Persistence.Repository;
     using Domain.Model.Bookmark;
 
     internal class BookmarkRepository : IBookmarkRepository
     {
-        private static SortedDictionary<int, Bookmark> bookmarks;
+        private static SortedDictionary<int, IBookmark> bookmarks;
 
         static BookmarkRepository()
         {
-            bookmarks = new SortedDictionary<int, Bookmark>();
+            bookmarks = new SortedDictionary<int, IBookmark>();
         }
 
-        public void Add(Bookmark bookmark)
+        public void Add(IBookmark bookmark)
         {
             bookmarks.Add(bookmark.Id, bookmark);
         }
@@ -23,7 +24,7 @@
             bookmarks.Remove(id);
         }
 
-        public Bookmark Find(int id)
+        public IBookmark Find(int id)
         {
             if (!bookmarks.ContainsKey(id))
             {
@@ -33,12 +34,9 @@
             return bookmarks[id];
         }
 
-        public IList<Bookmark> Get()
+        public IList<IBookmark> Get()
         {
-            var result = new Bookmark[bookmarks.Count];
-            bookmarks.Values.CopyTo(result, 0);
-
-            return result;
+            return bookmarks.Values.ToArray();
         }
 
         public int NextId()
@@ -46,7 +44,7 @@
             return bookmarks.Keys.LastOrDefault() + 1;
         }
 
-        public void Update(Bookmark bookmark)
+        public void Update(IBookmark bookmark)
         {
             bookmarks[bookmark.Id] = bookmark;
         }

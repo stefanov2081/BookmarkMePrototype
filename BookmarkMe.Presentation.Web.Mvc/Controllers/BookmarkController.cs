@@ -11,7 +11,7 @@
 
         public BookmarkController()
         {
-            bookmarkService = new BookmarkServiceInteractor();
+            bookmarkService = new BookmarkServiceInteractor(new Presentation.Web.Mvc.Repository.BookmarkRepository());
         }
 
         public ActionResult Delete(int? id)

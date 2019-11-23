@@ -1,6 +1,6 @@
 ﻿namespace BookmarkMe.Infrastructure.Persistence.Repository
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork
     {
         IBookmarkRepository BookmarkRepository { get; }
 

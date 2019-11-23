@@ -2,13 +2,14 @@
 {
     using System.Collections.Generic;
     using BookmarkMe.Application.Service.Bookmark;
+    using BookmarkMe.Infrastructure.Persistence.Repository;
     using BookmarkMe.Infrastructure.Persistence.Repository.InMemory;
 
     public class BookmarkServiceInteractor
     {
         private BookmarkService bookmarkService;
 
-        public BookmarkServiceInteractor()
+        public BookmarkServiceInteractor(IBookmarkRepository bookmarkRepository)
         {
             bookmarkService = new BookmarkService(new UnitOfWork());
         }

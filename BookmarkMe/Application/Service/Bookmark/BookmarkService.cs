@@ -30,7 +30,7 @@
 
         public void EditBookmark(int id, string name, string uri)
         {
-            var bookmark = unitOfWork.BookmarkRepository.Find(id);
+            var bookmark = (Bookmark)unitOfWork.BookmarkRepository.Find(id);
             bookmark.Rename(name);
             bookmark.ChangeUri(uri);
 
@@ -40,12 +40,12 @@
 
         public Bookmark FindBookmark(int id)
         {
-            return unitOfWork.BookmarkRepository.Find(id);
+            return (Bookmark)unitOfWork.BookmarkRepository.Find(id);
         }
 
         public IList<Bookmark> GetBookmarks()
         {
-            return unitOfWork.BookmarkRepository.Get();
+            return (IList<Bookmark>)unitOfWork.BookmarkRepository.Get();
         }
 
         public IList<Bookmark> SearchBookmarks(/*searchBy, keyword*/)

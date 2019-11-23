@@ -3,13 +3,13 @@
     using System.Collections.Generic;
     using Domain.Model.Bookmark;
 
-    internal interface IBookmarkRepository
+    public interface IBookmarkRepository
     {
-        void Add(Bookmark bookmark);
+        void Add(IBookmark bookmark);
         void Delete(int id);
-        IList<Bookmark> Get();
+        IList<IBookmark> Get();
         int NextId();
-        Bookmark Find(int id);
-        void Update(Bookmark bookmark);
+        IBookmark Find(int id);
+        void Update(IBookmark bookmark);
     }
 }
