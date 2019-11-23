@@ -1,28 +1,32 @@
 ﻿namespace BookmarkMe.Interactors.Bookmark
 {
+    using System.Collections.Generic;
+    using BookmarkMe.Application.Service.Bookmark;
+    using BookmarkMe.Infrastructure.Persistence.Repository.InMemory;
+
     public class BookmarkServiceInteractor
     {
-        //private BookmarkService bookmarkService;
+        private BookmarkService bookmarkService;
 
-        //public BookmarkServiceFacade()
-        //{
-        //    bookmarkService = new BookmarkService(new UnitOfWork());
-        //}
+        public BookmarkServiceInteractor()
+        {
+            bookmarkService = new BookmarkService(new UnitOfWork());
+        }
 
-        //public void CreateBookmark(string name, string uri)
-        //{
-        //    bookmarkService.CreateBookmark(name, uri);
-        //}
+        public void CreateBookmark(string name, string uri)
+        {
+            bookmarkService.CreateBookmark(name, uri);
+        }
 
-        //public void DeleteBookmark(int id)
-        //{
-        //    bookmarkService.DeleteBookmark(id);
-        //}
+        public void DeleteBookmark(int id)
+        {
+            bookmarkService.DeleteBookmark(id);
+        }
 
-        //public void EditBookmark(int id, string name, string uri)
-        //{
-        //    bookmarkService.EditBookmark(id, name, uri);
-        //}
+        public void EditBookmark(int id, string name, string uri)
+        {
+            bookmarkService.EditBookmark(id, name, uri);
+        }
 
         //public IEditViewModel FindBookmark(int id, IEditViewModel viewModel)
         //{
@@ -35,9 +39,33 @@
         //    return viewModel;
         //}
 
-        //public IList<IBookmark> GetBookmarks(out IList<IBookmark> bookmarks)
-        //{
-        //    var asd = bookmarkService.GetBookmarks();
-        //}
+        public ViewModel FindBookmark<ViewModel>(int id) where ViewModel : IBookmarkViewModel, new()
+        {
+            var bookmark = bookmarkService.FindBookmark(id);
+            return new ViewModel()
+            {
+                Id = bookmark.Id,
+                Name = bookmark.Name,
+                Uri = bookmark.Uri
+            };
+        }
+
+        public List<ViewModel> GetBookmarks<ViewModel>() where ViewModel : IBookmarkViewModel, new()
+        {
+            var bookmarks = bookmarkService.GetBookmarks();
+            var result = new List<ViewModel>();
+
+            foreach (var bookmark in bookmarks)
+            {
+                result.Add(new ViewModel()
+                {
+                    Id = bookmark.Id,
+                    Name = bookmark.Name,
+                    Uri = bookmark.Uri
+                });
+            }
+
+            return result;
+        }
     }
 }

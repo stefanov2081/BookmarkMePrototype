@@ -58,8 +58,7 @@
     <Compile Include="Interfaces\Bookmark\Facade\Web\Mvc\BookmarkDto.cs" />
     <Compile Include="Interfaces\Bookmark\Facade\Web\Mvc\BookmarkDtoAssembler.cs" />
     <Compile Include="Interfaces\Bookmark\Facade\Web\Mvc\BookmarkServiceFacade.cs" />
-    <Compile Include="Interfaces\Bookmark\Web.Mvc\BookmarkServiceFacade.cs" />
-    <Compile Include="Interfaces\Bookmark\Web.Mvc\IBookmarkViewModel.cs" />
+    <Compile Include="Interactors\Bookmark\IBookmarkViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -1,4 +1,4 @@
-﻿namespace BookmarkMe.Interfaces.Bookmark.Web.Mvc
+﻿namespace BookmarkMe.Interactors.Bookmark
 {
     public interface IBookmarkViewModel
     {

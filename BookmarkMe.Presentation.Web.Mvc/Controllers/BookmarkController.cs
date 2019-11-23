@@ -2,19 +2,16 @@
 {
     using System.Net;
     using System.Web.Mvc;
-    using BookmarkMe.Interfaces.Bookmark.Web.Mvc;
-    using Presentation.Web.Mvc.Assemblers;
+    using BookmarkMe.Interactors.Bookmark;
     using Presentation.Web.Mvc.ViewModels.Bookmark;
 
     public class BookmarkController : Controller
     {
-        private BookmarkViewModelAssembler viewModelAssembler;
-        private BookmarkServiceFacade bookmarkService;
+        private BookmarkServiceInteractor bookmarkService;
 
         public BookmarkController()
         {
-            viewModelAssembler = new BookmarkViewModelAssembler();
-            bookmarkService = new BookmarkServiceFacade();
+            bookmarkService = new BookmarkServiceInteractor();
         }
 
         public ActionResult Delete(int? id)
@@ -24,7 +21,7 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault(), new BookmarkViewModel());
+            var bookmark = bookmarkService.FindBookmark<BookmarkViewModel>(id.GetValueOrDefault());
 
             if (IsNotFound(bookmark))
             {
@@ -50,7 +47,7 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault(), new BookmarkViewModel());
+            var bookmark = bookmarkService.FindBookmark<BookmarkViewModel>(id.GetValueOrDefault());
 
             if (IsNotFound(bookmark))
             {
@@ -67,7 +64,7 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault(), new BookmarkViewModel());
+            var bookmark = bookmarkService.FindBookmark<BookmarkViewModel>(id.GetValueOrDefault());
 
             if (IsNotFound(bookmark))
             {
@@ -112,9 +109,9 @@
 
         public ActionResult Index()
         {
-            var bookmarks = bookmarkService.GetBookmarks();
+            var bookmarks = bookmarkService.GetBookmarks<BookmarkViewModel>();
 
-            return View(viewModelAssembler.ToIndexViewModel(bookmarks));
+            return View(bookmarks);
         }
 
         private bool IsBadRequest(int? parameter)

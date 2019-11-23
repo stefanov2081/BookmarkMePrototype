@@ -6,11 +6,11 @@
 
     internal class BookmarkRepository : IBookmarkRepository
     {
-        private static SortedDictionary<int, Bookmark> bookmarks = new SortedDictionary<int, Bookmark>();
+        private static SortedDictionary<int, Bookmark> bookmarks;
 
-        public BookmarkRepository()
+        static BookmarkRepository()
         {
-            //bookmarks = new SortedDictionary<int, Bookmark>();
+            bookmarks = new SortedDictionary<int, Bookmark>();
         }
 
         public void Add(Bookmark bookmark)

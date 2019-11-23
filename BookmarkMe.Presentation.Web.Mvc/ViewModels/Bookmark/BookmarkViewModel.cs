@@ -1,7 +1,7 @@
 ﻿namespace BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark
 {
     using System.ComponentModel.DataAnnotations;
-    using BookmarkMe.Interfaces.Bookmark.Web.Mvc;
+    using BookmarkMe.Interactors.Bookmark;
 
     public class BookmarkViewModel : IBookmarkViewModel
     {
