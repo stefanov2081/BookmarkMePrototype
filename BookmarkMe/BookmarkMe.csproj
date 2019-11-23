@@ -43,9 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interactors\Bookmark\BookmarkServiceInteractor.cs" />
-    <Compile Include="Interfaces\Bookmark\Facade\IBookmarkDto.cs" />
-    <Compile Include="Interfaces\Bookmark\Facade\IBookmarkDtoAssembler.cs" />
-    <Compile Include="Interfaces\Bookmark\Facade\IBookmarkServiceFacade.cs" />
     <Compile Include="Domain\Model\Bookmark\Bookmark.cs" />
     <Compile Include="Application\Service\Bookmark\BookmarkService.cs" />
     <Compile Include="Domain\Service\BookmarkExportService.cs" />
@@ -55,9 +52,6 @@
     <Compile Include="Infrastructure\Persistence\Repository\InMemory\BookmarkRepository.cs" />
     <Compile Include="Infrastructure\Persistence\Repository\InMemory\UnitOfWork.cs" />
     <Compile Include="Infrastructure\Persistence\Repository\IUnitOfWork.cs" />
-    <Compile Include="Interfaces\Bookmark\Facade\Web\Mvc\BookmarkDto.cs" />
-    <Compile Include="Interfaces\Bookmark\Facade\Web\Mvc\BookmarkDtoAssembler.cs" />
-    <Compile Include="Interfaces\Bookmark\Facade\Web\Mvc\BookmarkServiceFacade.cs" />
     <Compile Include="Interactors\Bookmark\IBookmarkViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
