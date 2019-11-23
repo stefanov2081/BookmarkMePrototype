@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkMe", "BookmarkMe\BookmarkMe.csproj", "{0477B22D-07AD-4FBB-8986-879864488F68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkMe.ConsoleApp", "BookmarkMe.ConsoleApp\BookmarkMe.ConsoleApp.csproj", "{2D5828E6-388A-45F3-8BC1-97634A59724C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkMe.Presentation.Web.Mvc", "BookmarkMe.Presentation.Web.Mvc\BookmarkMe.Presentation.Web.Mvc.csproj", "{769997FF-A8DA-419C-9681-A8CF611C9DB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{013F677C-7E0F-4FFB-889A-5C25EC37CD30}"
+	ProjectSection(SolutionItems) = preProject
+		ToDo.txt = ToDo.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

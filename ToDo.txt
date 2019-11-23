@@ -1,0 +1,2 @@
+Add functionality to enable users to sign up and log in with Microsoft Identity
+Add website thumbnail to the Bookmark
