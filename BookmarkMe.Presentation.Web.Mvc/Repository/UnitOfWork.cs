@@ -1,6 +1,6 @@
-﻿namespace BookmarkMe.Infrastructure.Persistence.Repository.InMemory
+﻿namespace BookmarkMe.Presentation.Web.Mvc.Repository
 {
-    using BookmarkMe.Presentation.Web.Mvc.Repository;
+    using BookmarkMe.Infrastructure.Persistence.Repository;
 
     public class UnitOfWork : IUnitOfWork
     {

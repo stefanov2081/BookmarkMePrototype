@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
     using Domain.Model.Bookmark;
     using Infrastructure.Persistence.Repository;
 
@@ -43,9 +44,9 @@
             return (Bookmark)unitOfWork.BookmarkRepository.Find(id);
         }
 
-        public IList<Bookmark> GetBookmarks()
+        public List<Bookmark> GetBookmarks()
         {
-            return (IList<Bookmark>)unitOfWork.BookmarkRepository.Get();
+            return unitOfWork.BookmarkRepository.Get().Select(x => (Bookmark)x).ToList();
         }
 
         public IList<Bookmark> SearchBookmarks(/*searchBy, keyword*/)

@@ -1,7 +1,6 @@
 ﻿namespace BookmarkMe.ConsoleApp
 {
     using System;
-    using Infrastructure.Persistence.Repository.InMemory;
     using Application.Service;
 
     class Program

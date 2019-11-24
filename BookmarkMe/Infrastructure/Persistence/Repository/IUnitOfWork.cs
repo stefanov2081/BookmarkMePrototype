@@ -3,7 +3,6 @@
     public interface IUnitOfWork
     {
         IBookmarkRepository BookmarkRepository { get; }
-
         void Save();
     }
 }

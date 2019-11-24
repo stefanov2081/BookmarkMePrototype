@@ -34,7 +34,7 @@
             return bookmarks[id];
         }
 
-        public IList<IBookmark> Get()
+        public IBookmark[] Get()
         {
             return bookmarks.Values.ToArray();
         }

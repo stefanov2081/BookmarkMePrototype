@@ -3,15 +3,14 @@
     using System.Collections.Generic;
     using BookmarkMe.Application.Service.Bookmark;
     using BookmarkMe.Infrastructure.Persistence.Repository;
-    using BookmarkMe.Infrastructure.Persistence.Repository.InMemory;
 
     public class BookmarkServiceInteractor
     {
         private BookmarkService bookmarkService;
 
-        public BookmarkServiceInteractor(IBookmarkRepository bookmarkRepository)
+        public BookmarkServiceInteractor(IUnitOfWork unitOfWork)
         {
-            bookmarkService = new BookmarkService(new UnitOfWork());
+            bookmarkService = new BookmarkService(unitOfWork);
         }
 
         public void CreateBookmark(string name, string uri)
@@ -29,20 +28,10 @@
             bookmarkService.EditBookmark(id, name, uri);
         }
 
-        //public IEditViewModel FindBookmark(int id, IEditViewModel viewModel)
-        //{
-        //    var bookmark = bookmarkService.FindBookmark(id);
-
-        //    viewModel.Id = bookmark.Id;
-        //    viewModel.Name = bookmark.Name;
-        //    viewModel.Uri = bookmark.Uri;
-
-        //    return viewModel;
-        //}
-
         public ViewModel FindBookmark<ViewModel>(int id) where ViewModel : IBookmarkViewModel, new()
         {
             var bookmark = bookmarkService.FindBookmark(id);
+
             return new ViewModel()
             {
                 Id = bookmark.Id,
