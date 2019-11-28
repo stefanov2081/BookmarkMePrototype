@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\Model\Bookmark\IBookmark.cs" />
-    <Compile Include="Interactors\Bookmark\BookmarkServiceInteractor.cs" />
+    <Compile Include="Infrastructure\IMapper.cs" />
     <Compile Include="Domain\Model\Bookmark\Bookmark.cs" />
     <Compile Include="Application\Service\Bookmark\BookmarkService.cs" />
     <Compile Include="Domain\Service\BookmarkExportService.cs" />
@@ -51,7 +51,6 @@
     <Compile Include="Domain\Shared\IEntity.cs" />
     <Compile Include="Infrastructure\Persistence\Repository\IBookmarkRepository.cs" />
     <Compile Include="Infrastructure\Persistence\Repository\IUnitOfWork.cs" />
-    <Compile Include="Interactors\Bookmark\IBookmarkViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -2,18 +2,17 @@
 {
     using System.Net;
     using System.Web.Mvc;
-    using BookmarkMe.Interactors.Bookmark;
+    using BookmarkMe.Application.Service.Bookmark;
     using BookmarkMe.Presentation.Web.Mvc.Repository;
-    using BookmarkMe.Presentation.Web.Mvc.Utilities;
     using Presentation.Web.Mvc.ViewModels.Bookmark;
 
     public class BookmarkController : Controller
     {
-        private BookmarkServiceInteractor bookmarkService;
+        private BookmarkService<BookmarkViewModel> bookmarkService;
 
         public BookmarkController()
         {
-            bookmarkService = new BookmarkServiceInteractor(new UnitOfWork());
+            bookmarkService = new BookmarkService<BookmarkViewModel>(new UnitOfWork(), new BookmarkMapper());
         }
 
         public ActionResult Delete(int? id)
@@ -23,7 +22,7 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark<BookmarkViewModel>(id.GetValueOrDefault());
+            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault());
 
             if (IsNotFound(bookmark))
             {
@@ -49,7 +48,7 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark<BookmarkViewModel>(id.GetValueOrDefault());
+            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault());
 
             if (IsNotFound(bookmark))
             {
@@ -66,7 +65,7 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var bookmark = bookmarkService.FindBookmark<BookmarkViewModel>(id.GetValueOrDefault());
+            var bookmark = bookmarkService.FindBookmark(id.GetValueOrDefault());
 
             if (IsNotFound(bookmark))
             {
@@ -111,10 +110,7 @@
 
         public ActionResult Index()
         {
-            var asd = ThumbnailTest.GetWebSiteThumbnail("https://www.google.com/", 100, 100, 100, 100);
-
-
-            var bookmarks = bookmarkService.GetBookmarks<BookmarkViewModel>();
+            var bookmarks = bookmarkService.GetBookmarks();
 
             return View(bookmarks);
         }

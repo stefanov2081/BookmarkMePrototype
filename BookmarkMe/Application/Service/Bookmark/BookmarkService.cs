@@ -2,17 +2,19 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
+    using BookmarkMe.Infrastructure;
     using Domain.Model.Bookmark;
     using Infrastructure.Persistence.Repository;
 
-    internal class BookmarkService
+    public class BookmarkService<ResultModel>
     {
         private IUnitOfWork unitOfWork;
+        private IMapper<IBookmark, ResultModel> mapper;
 
-        public BookmarkService(IUnitOfWork unitOfWork)
+        public BookmarkService(IUnitOfWork unitOfWork, IMapper<IBookmark, ResultModel> mapper)
         {
             this.unitOfWork = unitOfWork;
+            this.mapper = mapper;
         }
 
         public void CreateBookmark(string name, string uri)
@@ -39,17 +41,23 @@
             unitOfWork.Save();
         }
 
-        public Bookmark FindBookmark(int id)
+        public ResultModel FindBookmark(int id)
         {
-            return (Bookmark)unitOfWork.BookmarkRepository.Find(id);
+            var bookmark = unitOfWork.BookmarkRepository.Find(id);
+            var result = mapper.ToResult(bookmark);
+
+            return result;
         }
 
-        public List<Bookmark> GetBookmarks()
+        public ResultModel[] GetBookmarks()
         {
-            return unitOfWork.BookmarkRepository.Get().Select(x => (Bookmark)x).ToList();
+            var bookmarks = unitOfWork.BookmarkRepository.Get();
+            var result = mapper.ToResult(bookmarks);
+
+            return result;
         }
 
-        public IList<Bookmark> SearchBookmarks(/*searchBy, keyword*/)
+        public List<ResultModel> SearchBookmarks(/*searchBy, keyword*/)
         {
             throw new NotImplementedException();
         }

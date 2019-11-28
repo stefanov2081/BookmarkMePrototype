@@ -1,9 +1,9 @@
 ﻿namespace BookmarkMe.Presentation.Web.Mvc.ViewModels.Bookmark
 {
     using System.ComponentModel.DataAnnotations;
-    using BookmarkMe.Interactors.Bookmark;
+    using BookmarkMe.Domain.Model.Bookmark;
 
-    public class BookmarkViewModel : IBookmarkViewModel
+    public class BookmarkViewModel : IBookmark
     {
         public int Id { get; set; }
 
