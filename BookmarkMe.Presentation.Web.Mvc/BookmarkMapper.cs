@@ -6,13 +6,14 @@ namespace BookmarkMe.Presentation.Web.Mvc
 {
     public class BookmarkMapper : IMapper<IBookmark, BookmarkViewModel>
     {
-        public BookmarkViewModel ToResult(IBookmark model)
+        public BookmarkViewModel ToResult(IBookmark bookmark)
         {
             var result = new BookmarkViewModel()
             {
-                Id = model.Id,
-                Name = model.Name,
-                Url = model.Url
+                Id = bookmark.Id,
+                Name = bookmark.Name,
+                Url = bookmark.Url,
+                ThumbnailUrl= bookmark.ThumbnailUrl
             };
 
             return result;

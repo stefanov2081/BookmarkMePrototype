@@ -17,7 +17,7 @@
 
             Name = name;
             Url = uri;
-            LogoUrl = logoUrl;
+            ThumbnailUrl = logoUrl;
         }
 
         public int Id
@@ -64,7 +64,7 @@
             }
         }
 
-        public string LogoUrl
+        public string ThumbnailUrl
         {
             get
             {

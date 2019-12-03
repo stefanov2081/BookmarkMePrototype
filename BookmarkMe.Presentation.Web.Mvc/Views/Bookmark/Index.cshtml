@@ -23,6 +23,9 @@
 @foreach (var item in Model) {
     <tr>
         <td>
+            <img src="@item.ThumbnailUrl" />
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>

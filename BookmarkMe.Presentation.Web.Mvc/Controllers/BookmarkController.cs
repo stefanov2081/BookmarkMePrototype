@@ -77,7 +77,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Url")] BookmarkViewModel editViewModel)
+        public ActionResult Edit([Bind(Include = "Id,Name,Url,ThumbnailUrl")] BookmarkViewModel editViewModel)
         {
             if (!ModelState.IsValid)
             {
@@ -96,14 +96,14 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Url")] BookmarkViewModel createBookmarkViewModel)
+        public ActionResult Create([Bind(Include = "Id,Name,Url,ThumbnailUrl")] BookmarkViewModel createBookmarkViewModel)
         {
             if (!ModelState.IsValid)
             {
                 return View(createBookmarkViewModel);
             }
 
-            bookmarkService.CreateBookmark(createBookmarkViewModel.Name, createBookmarkViewModel.Url, createBookmarkViewModel.LogoUrl);
+            bookmarkService.CreateBookmark(createBookmarkViewModel.Name, createBookmarkViewModel.Url, createBookmarkViewModel.ThumbnailUrl);
 
             return RedirectToAction("Index");
         }
@@ -113,6 +113,11 @@
             var bookmarks = bookmarkService.GetBookmarks();
 
             return View(bookmarks);
+        }
+
+        public string ThumbnailUrl()
+        {
+            return "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png";
         }
 
         private bool IsBadRequest(int? parameter)

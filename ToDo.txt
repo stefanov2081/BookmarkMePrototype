@@ -1,2 +1,5 @@
-Add functionality to enable users to sign up and log in with Microsoft Identity
+Add Authentication with Microsoft Identity
 Add website thumbnail to the Bookmark
+	Add thumnail service / controller
+	Add default thumbnail for missing thumbnails
+

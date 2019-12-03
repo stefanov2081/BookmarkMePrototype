@@ -5,6 +5,6 @@
         int Id { get; }
         string Name { get; }
         string Url { get; }
-        string LogoUrl { get; }
+        string ThumbnailUrl { get; }
     }
 }
