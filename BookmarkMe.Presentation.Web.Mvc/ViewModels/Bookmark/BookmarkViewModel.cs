@@ -13,6 +13,8 @@
 
         [Required]
         [Url]
-        public string Uri { get; set; }
+        public string Url { get; set; }
+
+        public string LogoUrl { get; set; }
     }
 }

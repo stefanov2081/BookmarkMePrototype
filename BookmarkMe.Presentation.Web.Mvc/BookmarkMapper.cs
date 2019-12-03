@@ -12,7 +12,7 @@ namespace BookmarkMe.Presentation.Web.Mvc
             {
                 Id = model.Id,
                 Name = model.Name,
-                Uri = model.Uri
+                Url = model.Url
             };
 
             return result;

@@ -4,6 +4,7 @@
     {
         int Id { get; }
         string Name { get; }
-        string Uri { get; }
+        string Url { get; }
+        string LogoUrl { get; }
     }
 }

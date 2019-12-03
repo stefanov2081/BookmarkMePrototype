@@ -77,14 +77,14 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Uri")] BookmarkViewModel editViewModel)
+        public ActionResult Edit([Bind(Include = "Id,Name,Url")] BookmarkViewModel editViewModel)
         {
             if (!ModelState.IsValid)
             {
                 return View(editViewModel);
             }
 
-            bookmarkService.EditBookmark(editViewModel.Id, editViewModel.Name, editViewModel.Uri);
+            bookmarkService.EditBookmark(editViewModel.Id, editViewModel.Name, editViewModel.Url);
 
             return RedirectToAction("Index");
         }
@@ -96,14 +96,14 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Uri")] BookmarkViewModel createBookmarkViewModel)
+        public ActionResult Create([Bind(Include = "Id,Name,Url")] BookmarkViewModel createBookmarkViewModel)
         {
             if (!ModelState.IsValid)
             {
                 return View(createBookmarkViewModel);
             }
 
-            bookmarkService.CreateBookmark(createBookmarkViewModel.Name, createBookmarkViewModel.Uri);
+            bookmarkService.CreateBookmark(createBookmarkViewModel.Name, createBookmarkViewModel.Url, createBookmarkViewModel.LogoUrl);
 
             return RedirectToAction("Index");
         }

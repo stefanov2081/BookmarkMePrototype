@@ -17,10 +17,10 @@
             this.mapper = mapper;
         }
 
-        public void CreateBookmark(string name, string uri)
+        public void CreateBookmark(string name, string url, string logoUrl)
         {
             var id = unitOfWork.BookmarkRepository.NextId();
-            var bookmark = new Bookmark(id, name, uri);
+            var bookmark = new Bookmark(id, name, url, logoUrl);
 
             unitOfWork.BookmarkRepository.Add(bookmark);
             unitOfWork.Save();
@@ -31,11 +31,11 @@
             unitOfWork.BookmarkRepository.Delete(id);
         }
 
-        public void EditBookmark(int id, string name, string uri)
+        public void EditBookmark(int id, string name, string url)
         {
             var bookmark = (Bookmark)unitOfWork.BookmarkRepository.Find(id);
             bookmark.Rename(name);
-            bookmark.ChangeUri(uri);
+            bookmark.ChangeUrl(url);
 
             unitOfWork.BookmarkRepository.Update(bookmark);
             unitOfWork.Save();

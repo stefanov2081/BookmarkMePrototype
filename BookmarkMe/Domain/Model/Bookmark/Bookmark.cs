@@ -9,13 +9,15 @@
 
         private string name;
         private string uri;
+        private string logoUrl;
 
-        public Bookmark(int id, string name, string uri)
+        public Bookmark(int id, string name, string uri, string logoUrl)
         {
             this.id = id;
 
             Name = name;
-            Uri = uri;
+            Url = uri;
+            LogoUrl = logoUrl;
         }
 
         public int Id
@@ -44,7 +46,7 @@
             }
         }
 
-        public string Uri
+        public string Url
         {
             get
             {
@@ -62,14 +64,27 @@
             }
         }
 
+        public string LogoUrl
+        {
+            get
+            {
+                return logoUrl;
+            }
+
+            private set
+            {
+                logoUrl = value;
+            }
+        }
+
         public void Rename(string newName)
         {
             Name = newName;
         }
 
-        public void ChangeUri(string newUri)
+        public void ChangeUrl(string newUrl)
         {
-            Uri = newUri;
+            Url = newUrl;
         }
     }
 }
